@@ -1,0 +1,26 @@
+#tbStudents {
+    border-top-color: #ec8d3c;
+    border-top-style: solid;
+    border-top-width: 15px;
+}
+
+.pagination > .page-item > .page-link {
+    color: #ec8d3c;
+    border: 1px solid #ec8d3c;
+}
+.pagination > .page-item.active > .page-link {
+    background-color: #ec8d3c;
+    color: #fff;
+    border: 1px solid #ec8d3c;
+}
+
+.logout-button {
+    color: #555;
+    background-color: #ebebeb;
+    border-color: #ebebeb;
+}
+.logout-button:hover, .logout-button:focus, .logout-button:active, .logout-button.active, .open>.dropdown-toggle.logout-button {
+    color: #fff;
+    background-color: #ec8d3c;
+    border-color: #ec8d3c;
+}
